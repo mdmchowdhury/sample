@@ -1,0 +1,439 @@
+<! DOCTYPE html>
+
+<html>
+
+<head>
+  <base href="https://www.w3schools.com/images/" target="_blank">
+</head>
+
+<title>This is my first html</title>
+<style type="text/css">
+
+body{
+	font-family: tahoma;
+
+}
+
+h3{
+	text-decoration: underline;
+	color: #2F4F4F;
+}
+
+table, th, td {
+  border: 1px solid black;
+</style>
+
+<body>
+
+<h1>This is my first heading</h1>
+
+<h3>Href example</h3>
+<a href="https://www.google.com">Visit Google.com</a>
+</br>
+</br>
+<h3> HTML abbr Tag </h3>
+<p> The <abbr title="International Cricket Council">ICC</abbr> was founded in 1978</p>
+</br>
+</br>
+<h3> HTML address Tag </h3>
+
+<address>
+Written by <a href="mailto:webmaster@example.com">Stephen Smith</a>.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+
+</br>
+</br>
+<h3> article tag</h3>
+<article>
+  <h1>Google Chrome</h1>
+  <p>Google chrome is a web searching engine </p>
+</article>
+
+<p><strong>Note:</strong> The article tag is not supported in Internet Explorer 8 and earlier versions.</p>
+
+
+</br>
+</br>
+<h3> aside tag</h3>
+<aside>
+  <h4>Epcot Center</h4>
+  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+</aside>
+
+<p><strong>Note:</strong>the following may be valid uses of the aside element:
+
+bibliography or endnotes.</br>
+comments.</br>
+pull quotes</br>
+editorial sidebars.</br>
+additional information.</br>
+website sidebars unrelated to the content.</br>
+</p>
+
+</br>
+</br>
+<h3> audio tag</h3>
+<audio controls>
+  <source src="audio.mp3" type="audio/oog">
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+</br>
+</br>
+<h3> b tag</h3>
+<p>This is normal text - <b>and this is bold text</b>.</p>
+<p><strong>Note:</strong>b tag is used to bold texts </p>
+
+</br>
+</br>
+<h3> base tag</h3>
+<p><img src="stickman.gif" width="24" height="39" alt="Stickman">
+<p><a href="https://www.w3schools.com">W3Schools</a>
+<p><strong>Note:</strong>The base tag specifies the base URL/target for all relative URLs in a document.</p>
+
+There can be at maximum one base element in a document, and it must be inside the head element.
+Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".<br>
+Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".
+ </p>
+
+
+</br>
+</br>
+<h3> bdo tag</h3>
+
+<p>This paragraph will go left-to-right due to using bdo tag.</p>  
+<bdo dir="rtl"> This is the paragraph	</bdo>
+<p> <strong> Note: </strong>The bdo tag is used to override the current text direction ltr or rtl.</p>
+
+</br>
+</br>
+<h3> blockquote tag </h3
+<h4>About WWF</h4>
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+
+</br>
+</br>
+<h3> body tag </h3
+<body>
+The content of the document.
+</body>
+
+
+</br>
+</br>
+<h3> br tag </h3
+<p>
+To break lines<br>in a text,<br>use the br element.
+</p>
+</br>
+</br>
+<h3>The Button Element</h3>
+<button type="button" onclick="alert ('Hello User!')">Click Here</button>
+<button type="button" onclick="alert ('Thank you!')">Click again</button>
+
+</p>
+</br>
+</br>
+<h3>The Canvus Element</h3>
+<canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF69B4";
+ctx.fillRect(110, 20, 180, 200);
+</script>
+
+<p><strong>Note:</strong> The canvas tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+
+The canvas tag is only a container for graphics, you must use a script to actually draw the graphics.</p>
+</p>
+</br>
+</br>
+<h3>Caption Element</h3>
+<table>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Name</th>
+    <th>Amount saved</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+<p> <strong>Note:</strong> The caption tag defines a table caption.</p><br>
+The caption tag must be inserted immediately after the table tag. </p>
+
+</br>
+</br>
+<h3> center tag</h3>
+<center><strong> This text is center-aligned using center tag.</strong> </center>
+
+
+</br>
+</br>
+<h3> cite tag </h3>
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+<p> <strong>Note:</strong>The cite tag defines the title of a work (e.g. a book, a song, a movie, a TV show, a painting, a sculpture, etc.) </p>
+
+</br>
+</br>
+<h3> code tag </h3>
+<em>Emphasized text</em><br>
+<strong>Strong text</strong><br>
+<code>A piece of computer code</code><br>
+<samp>Sample output from a computer program</samp><br>
+<kbd>Keyboard input</kbd><br>
+<var>Variable</var>
+</body>
+
+</br>
+</br>
+<h3> col tag </h3>
+<table>
+  <colgroup>
+    <col span="2" style="background-color:#ADFF2F">
+    <col style="background-color:#20B2AA">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td> 
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
+<p>The col tag specifies column properties for each column within a colgroup element.
+The col tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</p>
+</br>
+</br>
+<h3> data tag </h3>
+<ul>
+  <li><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
+</ul>
+</br>
+</br>
+<h3> datalist tag </h3>
+<form action="/action_page.php" method="get">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+</br>
+</br>
+<h3> dd tag </h3>
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+<p>The dd tag is used to describe a term/name in a description list. The dd tag is used in conjunction with dl (defines a description list) and dt (defines terms/names). Inside a dd tag you can put paragraphs, line breaks, images, links, lists, etc.</p>
+
+</br>
+</br>
+<h3> del tag </h3>
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+</br>
+</br>
+<h3> detail tag </h3>
+<details>
+  <summary>Copyright 1999-2018.</summary>
+  <p> - by Refsnes Data. All Rights Reserved.</p>
+  <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+</details>
+</br>
+</br>
+<h3> div tag </h3>
+<div style="background-color:lightblue">
+  <h3>This is a heading in a div element</h3>
+  <p>This is some text in a div element.</p>
+</div>
+
+<p>Note: The div tag defines a division or a section in an HTML document.
+
+The div element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.</p>
+</br>
+</br>
+<h3> dl tag </h3>
+
+<dl>
+	<dt>Coffee</dt>
+	<dd>hot drink</dd>
+	<dt>Pepsi</dt>
+	<dd>cold drink</dd>
+</dl>
+<p>Note: The dl tag is used in conjunction with dt (defines terms/names) and dd (describes each term/name) </p>
+</br>
+</br>
+<h3> fieldset tag </h3>
+<form>
+	<fieldset>
+		<legend>Personal Information</legend>
+		Name: <input type="text"></br>
+		Email: <input type="text" <br>
+	</fieldset>
+<p>The fieldset tag is used to group related elements in a form.
+The fieldset tag draws a box around the related elements.</p>
+</form>
+</br>
+</br>
+<h3> figcaption tag </h3>
+<h2>Places to Visit</h2>
+
+
+<p>Puglia's most famous sight is the unique conical houses (Trulli) found in the area around Alberobello, a declared UNESCO World Heritage Site.</p>
+
+<figure>
+  <img src="../html/pic_trulli.jpg" alt="Trulli" style="width:50%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
+<p>The figcaption tag defines a caption for a figure element.
+The figcaption element can be placed as the first or last child of the figure element.</p>
+
+</br>
+</br>
+<h3> figure tag </h3>
+<figure>
+  <img src="/images/pulpit.jpg" alt="The Pulpit Rock" style="width:30%">
+</figure>
+<p>The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+
+While the content of the figure element is related to the main flow, its position is independent of the main flow, and if removed it should not affect the flow of the document.</p>
+
+
+</br>
+</br>
+<h3> font tag </h3>
+<font size="3" color="green">This is some text!</font>
+
+</br>
+</br>
+<h3> footer tag </h3>
+<footer>
+  <p>Posted by: Hege Refsnes</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+
+
+</br>
+</br>
+<h3> form tag </h3>
+<form action="/action_page.php" method="get">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form>
+</br>
+</br>
+<h3> form tag </h3>
+<article>
+  <header>
+    <h1>Most important heading here</h1>
+    <h3>Less important heading here</h3>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+
+</br>
+</br>
+<h3> input tag </h3>
+<form action="/action_page.php">
+First name: <input type="text" name="FirstName" value="Mickey"><br>
+Last name: <input type="text" name="LastName" value="Mouse"><br>
+<input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the server called "/action_page.php".</p>
+</br>
+</br>
+<h3> label tag </h3>
+<form action="/action_page.php">
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</br>
+</br>
+<h3> Main tag </h3>
+<main>
+  <h1>Web Browsers</h1>
+  <p>Google Chrome, Firefox, and Internet Explorer are the most used browsers today.</p>
+
+  <article>
+    <h1>Google Chrome</h1>
+    <p>Google Chrome is a free, open-source web browser developed by Google,
+    released in 2008.</p>
+  </article>
+</main>
+Note: The main tag specifies the main content of a document.<br>
+The content inside the main element should be unique to the document. It should not contain any content that is repeated across documents such as<br> sidebars, navigation links, copyright information, site logos, and search forms.<br>
+Note: There must not be more than one main element in a document. The main element must NOT be a descendant of an article, aside, footer, header, or nav element.
+
+
+</br>
+</br>
+<h3> Mark tag </h3>
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+</br>
+</br>
+<h3> Meter tag </h3>
+<p>Display a gauge:</p>
+<meter value="3" min="0" max="10">2 out of 10</meter><br>
+<meter value="0.6">70%</meter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
